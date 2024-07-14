@@ -1,0 +1,122 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logoSection, .contactSection, .downloadSection, .aboutSection {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff !important;
+}
+
+.spanI {
+    color: #FF5300;
+}
+
+.categories h3, .contactSection h3, .downloadSection h3, .aboutSection h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    margin-bottom: 5px;
+}
+
+.socialIcons a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.downloadLinks a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.appButtons {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.googlePlayBtn,
+.appStoreBtn {
+    background-color: #AD3800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+}
+
+@media (max-width: 768px) {
+    .appButtons {
+        flex-direction: column; 
+    }
+
+    .googlePlayBtn,
+    .appStoreBtn {
+        width: 80%; 
+        padding: 10px 0;
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .googlePlayBtn,
+    .appStoreBtn {
+        font-size: 12px; 
+    }
+}
+
+.aboutSection a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.aboutSec {
+    color: #FF8A52;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #444;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.footerBottom p, .footerBottom a {
+    color: #aaa;
+    font-size: 14px;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.footerBottom a {
+    text-decoration: none;
+}

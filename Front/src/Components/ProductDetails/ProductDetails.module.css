@@ -1,0 +1,103 @@
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #FFFAF1;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  .imageWrapper {
+    padding: 40px;
+    border: 1px solid #FFB38E;
+    border-radius: 8px;
+    background-color: #FFF3DD;
+    margin-bottom: 20px;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  .btnBuy {
+    background-color: #FF5300 ;
+    border: none ;
+    border-radius: 20px ;
+    padding: 10px 20px ;
+  }
+  
+  .btnAddToCart {
+    background-color: #AAAAAA !important;
+    border: none ;
+    border-radius: 20px ;
+    padding: 10px 20px ;
+  }
+  
+  .title {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .ratingValue {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+  
+  .progressBar {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid #FFB38E;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    height: 15px;
+    background-color: #FF8A52;
+    border-radius: 20px;
+  }
+  
+  .stockInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #FF8A52;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #FF8A52;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  

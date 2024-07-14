@@ -1,0 +1,192 @@
+.myAccount {
+  position: relative;
+  border: 2px solid #72cb8c;
+  margin-top: 30px;
+  border-radius: 40px;
+  padding: 30px;
+  font-family: sans-serif;
+  margin: 50px 30px 10px 30px;
+}
+
+.imgPerson {
+  top: -12%;
+  left: 10%;
+  width: 15%;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.peofile_Img {
+  height: 10px;
+  width: 10px;
+}
+
+.colorInput {
+  border-color: #ff8a52;
+}
+
+.formContain {
+  margin-inline: 20px;
+}
+
+.edit {
+  position: absolute;
+  top: -11%;
+  left: 19%;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ff8a52;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collparent {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+  /* Removed margin-top: 10%; */
+}
+
+label {
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #333;
+}
+
+.submit {
+  background-color: #ff5300;
+  color: white;
+  width: 128px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.contanForm {
+  padding-inline: 50px;
+}
+
+.customControl {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border-color: #ff8a52;
+}
+
+.marginInput {
+  margin: 10px 0; /* Added margin around inputs */
+}
+
+@media (max-width: 1420px) {
+  .edit {
+    top: -11%;
+    left: 19%;
+  }
+}
+
+@media (max-width: 1405px) {
+  .edit {
+    display: none;
+  }
+}
+
+@media (max-width: 765px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .formContain {
+    margin-inline: 10px;
+  }
+
+  .collparent {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .row.w-50 {
+    width: 100%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .myAccount {
+    margin: 50px 5px 10px 5px;
+  }
+
+  .imgPerson {
+    top: -8%;
+    left: 0%;
+    transform: translateX(-50%);
+  }
+
+  .collparent {
+    width: 100%;
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+  .imgPerson {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top: -6%;
+    left: 22%;
+  }
+
+  .customControl {
+    width: auto;
+  }
+}
+
+@media (max-width: 765px) {
+  .imgPerson {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: -8%;
+    left: 18%;
+  }
+}
+
+@media (max-width: 575px) {
+  .imgPerson {
+    height: 115px;
+    width: 115px;
+    position: absolute;
+    top: -6%;
+    left: 24%;
+  }
+}

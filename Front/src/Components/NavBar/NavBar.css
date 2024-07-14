@@ -1,0 +1,19 @@
+.logo-color{
+    color: var(--main-color);
+}
+
+.nav-icon span{
+    color: var(--main-color);
+    font-size: 22px;
+}
+
+.navbar a{
+    all: unset;
+    cursor: pointer;
+}
+
+.navbar-icon .user {
+    color: orange; 
+    font-size: 2rem; 
+  }
+  

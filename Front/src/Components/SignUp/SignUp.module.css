@@ -1,0 +1,197 @@
+.container {
+  background-color: #F78048; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px; 
+  position: relative;
+  overflow: hidden;
+}
+
+.formContainer {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  margin: 50px 0;
+}
+
+.spanI {
+  color: #FF5300;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  text-align: left;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #FF8A52;
+  border-radius: 9px;
+}
+
+.inputCheck {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inputCheck input[type="checkbox"] {
+  appearance: none;
+  width: 19px;
+  height: 20px;
+  border: 2px solid #FF5300;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  margin: 3px;
+}
+
+.inputCheck input[type="checkbox"]:checked::after {
+  content: '✔';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  line-height: 1;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px;
+  background: linear-gradient(180deg, #FF5400 0%, #D74600 131%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+  width: 30%;
+  font-weight: bold;
+}
+
+.loginPrompt {
+  font-size: 14px;
+  color: #333;
+}
+
+.loginLink {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}
+
+.container::before,
+.container::after {
+  content: '';
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container::before {
+  background-image: url('../../Assets/Mobile payments-amico 1.png');
+  width: 500px;
+  height: 400px;
+  left: 125px;
+  bottom: 150px;
+}
+
+.container::after {
+  background-image: url('../../Assets/Order food-pana 1.png');
+  width: 400px;
+  height: 400px;
+  right: 40px;
+  top: 130px;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    padding: 20px;
+    margin: 10px;
+  }
+  .inputGroup {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formRow {
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .buttonContainer {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .container::before, .container::after {
+    width: 50%;
+    height: auto;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .inputGroup {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .container::before, .container::after {
+    display: none;
+  }
+}

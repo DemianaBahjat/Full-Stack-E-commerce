@@ -1,0 +1,8 @@
+.mobiles .pages i {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.mobiles .pages i:hover{
+    color: green;
+}

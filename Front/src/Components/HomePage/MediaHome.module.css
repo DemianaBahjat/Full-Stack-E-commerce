@@ -1,0 +1,14 @@
+/* MediaSlider.module.css */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px ;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

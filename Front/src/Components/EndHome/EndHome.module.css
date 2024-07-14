@@ -1,0 +1,86 @@
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.section {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 30px; 
+  height: 40px;
+  margin-right: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.showMore {
+  width: 100%; 
+  border: 2px solid #FF5300 !important;
+  color: var(--main-color);
+  border-radius: 30px;
+  padding: 13px 0; 
+  cursor: pointer;
+  text-align: center; 
+  background-color: transparent;
+
+}
+
+.showMore:hover {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+.mobilesBackground {
+  background-color: #ffece6;
+}
+
+.kitchenBackground {
+  background-color: #F5F5F5;
+}
+
+.appliancesBackground {
+  background-color: #F3FFF6;
+}
+
+.furnitureBackground {
+  background-color: #FAF3FF;
+}

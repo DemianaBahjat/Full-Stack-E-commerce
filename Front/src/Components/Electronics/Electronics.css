@@ -1,0 +1,8 @@
+.Electronics .pages i {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Electronics .pages i:hover{
+    color: green;
+}
